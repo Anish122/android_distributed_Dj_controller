@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dj">
+    
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Server URL"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:textColor="#000000"/>
+    
+    <!-- Input Name -->
+	<EditText android:id="@+id/inputUrl"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	<Button android:id="@+id/btnUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_marginTop="25dip"/>
+   
+</LinearLayout>
